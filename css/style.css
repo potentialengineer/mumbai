@@ -6703,3 +6703,18 @@ ul.latest_news li a:focus+span.defaultcolor {
 ::-webkit-scrollbar-thumb:hover {
     box-shadow: inset 0 0 100px 20px #3992bf;
 }
+
+a[href*="elfsight.com"][target="_blank"][rel="noreferrer"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    position: absolute !important;
+    z-index: -9999 !important;
+    pointer-events: none !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+  }
